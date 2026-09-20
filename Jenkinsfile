@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/s43861999/first-project.git'
+                git branch: 'main', url: 'https://github.com/s43861999/maven-war-project.git'
             }
         }
 
