@@ -29,7 +29,7 @@ pipeline {
 
                  sh "ls -l $WORKSPACE/target/"
                  sh "pwd"
-                 sh "scp -o StrictHostKeyChecking=no $WORKSPACE/target/devopsnew.war tomcat@ec2-3-91-76-112.compute-1.amazonaws.com:/opt/apache-tomcat-9.0.119/webapps"
+                 sh "scp -o StrictHostKeyChecking=no $WORKSPACE/target/devnew.war tomcat@ec2-3-91-76-112.compute-1.amazonaws.com:/opt/apache-tomcat-9.0.119/webapps"
 
 
                 }
